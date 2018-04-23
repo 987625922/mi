@@ -1,0 +1,352 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 12px, "Arial Narrow", HELVETICA;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+a {
+    color: #2d374b;
+    text-decoration: none
+}
+
+a:hover {
+    color: #cd0200;
+    text-decoration: underline
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+p {
+    word-wrap: break-word
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*div{
+    display: block;
+}*/
+
+
+/**    header 头部分     **/
+
+.header {
+    position: relative;
+    height: 40px;
+    font-size: 12px;
+    background: #333;
+    color: #b0b0b0;
+    width: 100%;
+}
+
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header-nav a {
+    color: #b0b0b0;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: #ffffff;
+}
+
+.header-cart {
+    width: 120px;
+    margin-left: 15px;
+}
+
+#topcart {
+    position: relative;
+    float: right;
+    height: 40px;
+}
+
+.top-cart-content {
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
+
+.top-info {
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    float: right;
+}
+
+.top-info a {
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+
+.top-info a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+/**      第二部分      **/
+
+.stip-header {
+    position: relative;
+    z-index: 20;
+    height: 100px;
+}
+
+.stip-header-top {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1226px;
+}
+
+.logo {
+    margin-top: 22px;
+    float: left;
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    _zoom: 1;
+    background-color: #ff6700;
+}
+
+
+
+.stip-header-nav {
+    float: left;
+    width: 700px;
+}
+
+.stip-header-ul {
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 700px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.stip-header-li {
+    float: left;
+}
+
+.stip-header-li a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+    text-decoration: none;
+}
+
+.stip-header-li a:hover {
+    color: #ff6700;
+}
+
+
+.stip-header-search {
+    float: right;
+    width: 252px;
+    margin-top: 22px;
+}
+
+.from-search {
+    position: relative;
+    width: 252px;
+    height: 50px;
+}
+
+.search-text {
+    position: relative;
+    float: left;
+    top: 0;
+    z-index: 1;
+    width: 200px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+    outline: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border-color: #b0b0b0;
+}
+
+.search-btn {
+    position: absolute;
+    z-index: 2;
+    width: 52px;
+    height: 46px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-align: center;
+    line-height: 48px;
+}
+
+.search-hot-word {
+    position: absolute;
+    top: 14px;
+    right: 62px;
+    z-index: 2;
+    text-align: right;
+}
+
+
+
+
+/**  轮播图开始  **/
+
+.home {
+    position: relative;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-top {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.home-sub {
+    margin-top: 14px;
+}
+
+.home-sub-ul {
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.home-sub-li {
+    float: left;
+    position: relative;
+    color: #fff;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    display: inline-block;
+
+}
+.home-sub-li a{
+    background: #5f5750;
+    color: #fff;
+    display: block;
+}
+
+
+.home-sub-img-ul li {
+    float: left;
+    width: 316px;
+    height: 170px;
+}
+
+.home-sub-img-ul a {
+    display: block;
+    height: 170px;
+}
+
+/*小米闪购*/
+.xg{
+    display: block;
+}
+.xg-title{
+    height: 50px;
+    position: relative;
+}
+.title{
+    font-size: 22px;
+    color: #333;
+    line-height: 50px;
+    font-weight: 200px;
+}
+.more{
+    display: block;
+}
+.box-sg{
+    position: relative;
+    width: 1226px;
+    }
