@@ -67,6 +67,14 @@ a {
     text-decoration: none;
 }
 
+div {
+    display: block;
+}
+
+
+
+
+
 
 /*div{
     display: block;
@@ -147,6 +155,10 @@ a {
 .top-info a:hover {
     color: #ffffff;
 }
+
+
+
+
 
 
 
@@ -275,6 +287,10 @@ a {
 
 
 
+
+
+
+
 /**  轮播图开始  **/
 
 .home {
@@ -287,6 +303,7 @@ a {
 .home-top {
     position: relative;
     margin-bottom: 26px;
+    height: 140px;
 }
 
 .home-sub {
@@ -309,9 +326,9 @@ a {
     line-height: 70px;
     width: 70px;
     display: inline-block;
-
 }
-.home-sub-li a{
+
+.home-sub-li a {
     background: #5f5750;
     color: #fff;
     display: block;
@@ -329,24 +346,168 @@ a {
     height: 170px;
 }
 
+
+
+
+
 /*小米闪购*/
-.xg{
+
+.xg {
     display: block;
 }
-.xg-title{
+
+.xg-title {
     height: 50px;
     position: relative;
 }
-.title{
+
+.title {
     font-size: 22px;
     color: #333;
     line-height: 50px;
     font-weight: 200px;
 }
-.more{
+
+.more {
     display: block;
 }
-.box-sg{
+
+.box-sg {
     position: relative;
     width: 1226px;
-    }
+}
+
+.box-sg-time {
+    width: 170px;
+    margin: 20px auto;
+}
+
+.box-sg-time-hour {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    background: #605751;
+    font-size: 24px;
+    float: left;
+}
+
+.box-sg-time-colon {
+    width: 16px;
+    height: 46px;
+    color: #605751;
+    line-height: 46px;
+    float: left;
+    font-size: 24px;
+}
+
+.item1 {
+    border-top-color: #ffac13;
+    border-top-width: 5px;
+    border-top-style: solid;
+    height: 340px;
+    width: 234px;
+    background: #fff;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    
+}
+
+.item1 a {
+    background: #fafafa;
+    position: absolute;
+    width: 234px;
+    height: 340px;
+}
+.item-a{
+    display: block;
+    width: 160px;
+    margin: 0 auto 22px;
+}
+.item-a img{
+    width: 160px;
+    height: 160px;
+}
+
+
+
+/* 横幅 */
+
+.body-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-item-img {
+    width: 1226px;
+    height: 120px;
+}
+
+
+
+
+
+/* 第四部分 */
+
+.page-home {
+    background: #f5f5f5;
+}
+
+#phone {
+    height: 686px;
+}
+
+#phone-title {
+    height: 58px;
+}
+
+#phone-title a {
+    height: 58px;
+    line-height: 58px;
+    text-decoration: none;
+}
+
+#phone-title a:hover {
+    color: #ffac13;
+}
+
+.phone-li-li {
+    position: relative;
+    float: left;
+    width: 234px;
+}
+
+.phone-item {
+    height: 300px;
+    width: 224px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    background: #fff;
+}
+
+.title {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.desc {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.price {
+    color: #ff6700;
+    text-align: center;
+}
+
+del {
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
