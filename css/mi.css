@@ -76,6 +76,11 @@ div {
 
 
 
+
+
+
+
+
 /*div{
     display: block;
 }*/
@@ -155,9 +160,6 @@ div {
 .top-info a:hover {
     color: #ffffff;
 }
-
-
-
 
 
 
@@ -291,6 +293,11 @@ div {
 
 
 
+
+
+
+
+
 /**  轮播图开始  **/
 
 .home {
@@ -350,6 +357,11 @@ div {
 
 
 
+
+
+
+
+
 /*小米闪购*/
 
 .xg {
@@ -402,33 +414,51 @@ div {
 }
 
 .item1 {
-    border-top-color: #ffac13;
-    border-top-width: 5px;
-    border-top-style: solid;
-    height: 340px;
-    width: 234px;
-    background: #fff;
-    margin-right: 10px;
     float: left;
-    text-align: center;
-    
+    position: relative;
+    border-top-color: #ffac13;
+    border-top-width: 2px;
+    height: 340px;
+    border-top-style: solid;
+    width: 234px;
+    margin-left: 10px;
+    background: #fafafa;
 }
 
-.item1 a {
-    background: #fafafa;
+.item-a {
+    margin: 0 auto 22px;
+    display: block;
+    width: 160px;
+    margin-top: 39px;
+}
+
+.item-a img {
+    width: 160px;
+    height: 160px;
+}
+
+.item p {
+    text-align: center;
+}
+
+.item1-title {
+    text-align: center;
+    color: #212121;
+}
+
+.item1-comments {
+    text-align: center;
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+}
+
+.item-position {
     position: absolute;
     width: 234px;
     height: 340px;
 }
-.item-a{
-    display: block;
-    width: 160px;
-    margin: 0 auto 22px;
-}
-.item-a img{
-    width: 160px;
-    height: 160px;
-}
+
 
 
 
@@ -448,7 +478,15 @@ div {
 
 
 
+
+
+
+
+
 /* 第四部分 */
+
+
+/*手机*/
 
 .page-home {
     background: #f5f5f5;
@@ -510,4 +548,99 @@ div {
 del {
     color: #b0b0b0;
     text-decoration: line-through;
+}
+
+
+
+/* 家电 */
+
+.appliances {
+    height: 672px;
+}
+
+.appliances-title {
+    height: 58px;
+    line-height: 58px;
+}
+
+.appliances-title h2 {
+    display: inline;
+}
+
+.appliances-title ul {
+    float: right;
+}
+
+.appliances-title li {
+    float: left;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.appliances-tables {
+    border-bottom: 2px solid #ff6700;
+}
+
+.appliances-ul li {
+    float: left;
+}
+
+.appliances-li {
+    margin-left: 14px;
+}
+
+.appliances-ul-div {
+    position: relative;
+    height: 300px;
+    width: 234px;
+    background: #fff;
+}
+
+.appliances-ul-img {
+    width: 150px;
+    margin: 0 auto 18px;
+    padding-top: 12px;
+}
+
+.hot-review-title {
+    height: 58px;
+    line-height: 58px;
+}
+
+.hot-review-ul {
+    height: 415px;
+}
+
+.hot-review-li {
+    width: 296px;
+    float: left;
+    background: #fff;
+    height: 415px;
+}
+
+.li-margin-left {
+    margin-left: 14px;
+}
+
+.hot-review-comment {
+    height: 72px;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 28px 22px;
+}
+
+.hot-review-author {
+    margin-left: 22px;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+}
+
+.hot-review-name {
+    font-size: 16px;
+}
+
+.hot-review-price {
+    font-size: 16px;
+    color: #ff6700;
 }
