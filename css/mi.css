@@ -81,6 +81,10 @@ div {
 
 
 
+
+
+
+
 /*div{
     display: block;
 }*/
@@ -160,6 +164,10 @@ div {
 .top-info a:hover {
     color: #ffffff;
 }
+
+
+
+
 
 
 
@@ -298,6 +306,10 @@ div {
 
 
 
+
+
+
+
 /**  轮播图开始  **/
 
 .home {
@@ -352,6 +364,10 @@ div {
     display: block;
     height: 170px;
 }
+
+
+
+
 
 
 
@@ -462,6 +478,10 @@ div {
 
 
 
+
+
+
+
 /* 横幅 */
 
 .body-item {
@@ -483,6 +503,10 @@ div {
 
 
 
+
+
+
+
 /* 第四部分 */
 
 
@@ -490,6 +514,7 @@ div {
 
 .page-home {
     background: #f5f5f5;
+    padding-bottom: 50px;
 }
 
 #phone {
@@ -549,6 +574,10 @@ del {
     color: #b0b0b0;
     text-decoration: line-through;
 }
+
+
+
+
 
 
 
@@ -643,4 +672,119 @@ del {
 .hot-review-price {
     font-size: 16px;
     color: #ff6700;
+}
+
+.books-title {
+    height: 58px;
+    line-height: 58px;
+    margin-left: 14px;
+    font-size: 25px;
+}
+
+.book-ul {
+    width: 1226px;
+    height: 420px;
+}
+
+.book-li {
+    float: left;
+    height: 420px;
+    width: 296px;
+    background: #fff;
+    border-top-width: 2px;
+    border-top: 2px solid #ffac13;
+}
+
+.book-top {
+    margin-top: 10px;
+    font-weight: 400px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffac13;
+}
+
+.book-name {
+    margin-top: 30px;
+    font-weight: 400px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book-content {
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+.book-price {
+    font-weight: 400px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff6700;
+    margin-top: 20px;
+}
+
+.book-img {
+    width: 296px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+/*  脚部分  */
+
+.footservice {
+    width: 1226px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 27px 0;
+}
+
+.footservice li {
+    width: 244px;
+    float: left;
+    text-align: center;
+}
+
+.footservice a {
+    font-size: 16px;
+}
+
+.footlinks {
+    width: 1226px;
+    padding: 40px 0;
+    height: 152px;
+    margin: 0 auto;
+}
+
+.foot-links-dl {
+    width: 160px;
+    float: left;
+    height: 112px;
+}
+
+.foot-links-contact {
+    width: 251px;
+    float: left;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.foot-links-dl dt {
+    font-size: 14px;
+    color: #424242;
+}
+
+.foot-links-dl dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+
+.foot-links-dl a {
+    color: #757575;
 }
